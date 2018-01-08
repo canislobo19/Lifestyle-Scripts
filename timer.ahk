@@ -4,8 +4,9 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #NoTrayIcon
 
-;Counts down for 20 minutes while you work and then opens a screen that counts down from 2 minutes while you take a break from working,
-;	repeats from the 20 minute countdown again
+;Following the advice of doctors to take a 2-minute break after 20 minutes of using a computer, this script
+;counts down for 20 minutes while you work and then opens a screen that counts down from 2 minutes while you take a break.
+;Repeats from the 20 minute countdown again.
 
 WorkTime := 1200
 BreakTime := 120
